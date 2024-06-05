@@ -66,7 +66,7 @@ To run this code locally, follow these steps:
     ```
 4. **Run the Streamlit Application**:
     ```bash
-    streamlit run app.py
+    streamlit run LC_ChatBot_LLama2.py
     ```
 
 ## Deployment Instructions
