@@ -23,7 +23,7 @@ The main code in this repository sets up a Streamlit application with the follow
     - Sets up the Streamlit user interface with a title and text input field.
     - Displays the model's response to the user's query.
 
-## Requirements
+## Requirements    
 Ensure the following packages are listed in your `requirements.txt` file:
 ```plaintext
 streamlit
@@ -47,6 +47,22 @@ To run this code locally, follow these steps:
 3. **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
+    ```
+4. **Download and Install Ollama**:
+    - **For macOS**:
+      - Download the latest MacOS zip file from the [Ollama download page](https://www.ollama.com/download).
+      - Unzip the file and run the installer and follow the on-screen instructions.
+    - **For Windows**:
+      - Download the latest Windows installer from the [Ollama download page](https://www.ollama.com/download).
+      - Run the installer and follow the on-screen instructions.
+    - **For Linux**:
+      - Install it using your Curl command.:
+      ```bash
+      curl -fsSL https://ollama.com/install.sh | sh
+      ```
+5. **Install LLAMA-2 Model** (Run in CMD/Terminal):
+    ```bash
+    ollama install llama2:7b
     ```
 4. **Run the Streamlit Application**:
     ```bash
